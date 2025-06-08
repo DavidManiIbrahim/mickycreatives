@@ -5,6 +5,7 @@ import { heroImages } from '../data/portfolio';
 
 const Hero: React.FC = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
+  // const [nextSlide, setNextSlide] = useState(0);
 
   useEffect(() => {
     const timer = setInterval(() => {

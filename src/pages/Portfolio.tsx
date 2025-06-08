@@ -7,9 +7,9 @@ const Portfolio: React.FC = () => {
   const categories = [
     { id: 'all', name: 'All Work', count: 15 },
     { id: 'portrait', name: 'Portrait', count: 3 },
-    { id: 'prewedding', name: 'Pre-Wedding', count: 3 },
+    // { id: 'prewedding', name: 'Pre-Wedding', count: 3 },
     { id: 'wedding', name: 'Wedding', count: 3 },
-    { id: 'fashion', name: 'Fashion', count: 3 },
+    // { id: 'fashion', name: 'Fashion', count: 3 },
     { id: 'event', name: 'Event', count: 3 }
   ];
 

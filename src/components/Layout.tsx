@@ -1,6 +1,7 @@
 // src/components/Layout.tsx
 
 import React from 'react';
+import Logo from '../assets/image/mickys creative icon trans.png'
 import { Outlet, NavLink } from 'react-router-dom';
 import { Facebook, Instagram } from 'lucide-react';
 
@@ -11,7 +12,7 @@ const Layout: React.FC = () => {
       <header className="bg-background-ivory shadow-md sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center d-flex">
           <div className="brandLogo relative flex w-4/7  justify-content-start">
-          <img src="/src/assets/image/micky's creative icon trans.png" alt="" width={50} />
+          <img src={Logo} alt="logo" width={50} />
           <h1 className="text-2xl mt-2 font-bold tracking-wide text-primary-deepForestGreen">
             Micky’s Creative
           </h1>
