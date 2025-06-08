@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Camera, Menu, X } from 'lucide-react';
-import Logo from '.../../public/image/mickys creative icon.png';
+import Logo from '/image/mickys creative icon.png';
 
 const Header: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -43,7 +43,7 @@ const Header: React.FC = () => {
 
               <span className={`font-bold text-xl transition-colors duration-300 ${isScrolled ? 'text-textcolor-darkgrey' : 'text-textcolor-white drop-shadow-lg'
                 }`}>
-                Micky's Creative
+                Micky's Creative blood
               </span>
           </Link>
         
