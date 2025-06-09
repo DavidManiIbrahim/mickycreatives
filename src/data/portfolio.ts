@@ -14,7 +14,7 @@ export const portfolioItems: PortfolioItem[] = [
     id: 'p1',
     title: 'Professional Headshot',
     category: 'portrait',
-    image: '/image/Portrait_/1(1).jpg',
+    image: '/https://res.cloudinary.com/dikmotd52/image/upload/v1749349118/EAS_8835_rgckyo.jpg',
     description: 'Professional business portrait with natural lighting'
   },
   {
@@ -88,9 +88,9 @@ export const portfolioItems: PortfolioItem[] = [
 ];
 
 export const heroImages = [
-  'https://res.cloudinary.com/dikmotd52/image/upload/v1749349118/EAS_8835_rgckyo.jpg',
+  'https://res.cloudinary.com/dikmotd52/image/upload/v1749349119/EAS_884435_jz0l0w.jpg',
   'https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&w=1920',
   'https://images.pexels.com/photos/1024993/pexels-photo-1024993.jpeg?auto=compress&cs=tinysrgb&w=1920',
   'https://images.pexels.com/photos/1024954/pexels-photo-1024954.jpeg?auto=compress&cs=tinysrgb&w=1920',
-  'https://images.pexels.com/photos/1065084/pexels-photo-1065084.jpeg?auto=compress&cs=tinysrgb&w=1920'
+  // 'https://images.pexels.com/photos/1065084/pexels-photo-1065084.jpeg?auto=compress&cs=tinysrgb&w=1920'
 ];
