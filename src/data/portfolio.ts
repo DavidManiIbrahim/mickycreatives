@@ -28,7 +28,7 @@ export const portfolioItems: PortfolioItem[] = [
     id: 'p3',
     title: 'Family Portrait',
     category: 'portrait',
-    image: 'https://res.cloudinary.com/dikmotd52/image/upload/v1749434758/3_5_ugech2.jpg',
+    image: 'https://res.cloudinary.com/dikmotd52/image/upload/v1749434776/3_29_lt6un6.jpg',
     description: 'Beautiful family moment captured naturally'
   },
 
@@ -45,14 +45,21 @@ export const portfolioItems: PortfolioItem[] = [
     id: 'w2',
     title: 'Reception Joy',
     category: 'wedding',
-    image: 'https://images.pexels.com/photos/1729797/pexels-photo-1729797.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: 'https://res.cloudinary.com/dikmotd52/image/upload/v1749434766/3_28_ogrglw.jpg',
     description: 'Celebration and joy at wedding reception'
   },
   {
     id: 'w3',
     title: 'Bride & Groom',
     category: 'wedding',
-    image: 'https://images.pexels.com/photos/1024960/pexels-photo-1024960.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: 'https://res.cloudinary.com/dikmotd52/image/upload/v1749434764/3_25_b23qoh.jpg',
+    description: 'Intimate moments between bride and groom'
+  },
+  {
+    id: 'w4',
+    title: 'Bride & Groom',
+    category: 'wedding',
+    image: 'https://res.cloudinary.com/dikmotd52/image/upload/v1749436941/2_4_ewrtz4.jpg',
     description: 'Intimate moments between bride and groom'
   },
   
