@@ -22,20 +22,7 @@ export const services: Service[] = [
     duration: '1-2 hours',
     deliverables: '20-30 professionally edited high-resolution images'
   },
-  {
-    id: 'prewedding',
-    title: 'Pre-Wedding Photography',
-    description: 'Romantic and creative engagement sessions that tell your unique love story.',
-    features: [
-      'Consultation to plan perfect locations',
-      'Multiple location shoots available',
-      'Wardrobe styling guidance',
-      'Creative concepts and themes',
-      'Candid and posed shots'
-    ],
-    duration: '2-3 hours',
-    deliverables: '40-60 professionally edited images + online gallery'
-  },
+  
   {
     id: 'wedding',
     title: 'Wedding Photography',
@@ -51,20 +38,7 @@ export const services: Service[] = [
     duration: '8-12 hours',
     deliverables: '200-400 edited images + wedding album design'
   },
-  {
-    id: 'fashion',
-    title: 'Fashion Photography',
-    description: 'High-end fashion and commercial photography for brands, designers, and models.',
-    features: [
-      'Editorial and commercial fashion shoots',
-      'Model portfolio development',
-      'Brand and product photography',
-      'Creative direction and styling',
-      'Studio and location options'
-    ],
-    duration: '3-4 hours',
-    deliverables: '30-50 professionally retouched images'
-  },
+ 
   {
     id: 'event',
     title: 'Event Photography',

@@ -62,6 +62,13 @@ export const portfolioItems: PortfolioItem[] = [
     image: 'https://res.cloudinary.com/dikmotd52/image/upload/v1749436941/2_4_ewrtz4.jpg',
     description: 'Intimate moments between bride and groom'
   },
+  {
+    id: 'w4',
+    title: 'Bride & Groom',
+    category: 'wedding',
+    image: 'https://res.cloudinary.com/dikmotd52/image/upload/v1749436940/2_1_vrsy2r.jpg',
+    description: 'Intimate moments between bride and groom'
+  },
   
   // Event
   {
