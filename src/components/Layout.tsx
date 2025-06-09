@@ -12,7 +12,7 @@ const Layout: React.FC = () => {
       <header className="bg-background-ivory shadow-md sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
           <div className="flex items-center space-x-3">
-            <img src="../assets/image/micky's creative icon trans.png" alt="logo" width={50} />
+            <img src="https://asset.cloudinary.com/dikmotd52/b43bbbf6e2b58fa292a2d5a361668383" alt="logo" width={50} />
             <h1 className="text-2xl font-bold tracking-wide text-primary-deepForestGreen">
               Micky’s Creative
             </h1>
