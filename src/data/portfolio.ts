@@ -39,20 +39,7 @@ export const portfolioItems: PortfolioItem[] = [
     image: 'https://images.pexels.com/photos/1024993/pexels-photo-1024993.jpeg?auto=compress&cs=tinysrgb&w=800',
     description: 'Romantic pre-wedding shoot in natural garden setting'
   },
-  {
-    id: 'pw2',
-    title: 'Urban Love Story',
-    category: 'prewedding',
-    image: 'https://images.pexels.com/photos/1024967/pexels-photo-1024967.jpeg?auto=compress&cs=tinysrgb&w=800',
-    description: 'Modern pre-wedding session in urban environment'
-  },
-  {
-    id: 'pw3',
-    title: 'Sunset Romance',
-    category: 'prewedding',
-    image: 'https://images.pexels.com/photos/1043474/pexels-photo-1043474.jpeg?auto=compress&cs=tinysrgb&w=800',
-    description: 'Golden hour pre-wedding photography'
-  },
+  
   // Wedding
   {
     id: 'w1',
@@ -75,28 +62,7 @@ export const portfolioItems: PortfolioItem[] = [
     image: 'https://images.pexels.com/photos/1024960/pexels-photo-1024960.jpeg?auto=compress&cs=tinysrgb&w=800',
     description: 'Intimate moments between bride and groom'
   },
-  // Fashion
-  {
-    id: 'f1',
-    title: 'Fashion Editorial',
-    category: 'fashion',
-    image: 'https://images.pexels.com/photos/1065084/pexels-photo-1065084.jpeg?auto=compress&cs=tinysrgb&w=800',
-    description: 'High-fashion editorial photography'
-  },
-  {
-    id: 'f2',
-    title: 'Street Fashion',
-    category: 'fashion',
-    image: 'https://images.pexels.com/photos/1040945/pexels-photo-1040945.jpeg?auto=compress&cs=tinysrgb&w=800',
-    description: 'Contemporary street fashion photography'
-  },
-  {
-    id: 'f3',
-    title: 'Model Portfolio',
-    category: 'fashion',
-    image: 'https://images.pexels.com/photos/1036623/pexels-photo-1036623.jpeg?auto=compress&cs=tinysrgb&w=800',
-    description: 'Professional model portfolio shoot'
-  },
+  
   // Event
   {
     id: 'e1',
@@ -122,6 +88,7 @@ export const portfolioItems: PortfolioItem[] = [
 ];
 
 export const heroImages = [
+  'https://res.cloudinary.com/dikmotd52/image/upload/v1749349118/EAS_8835_rgckyo.jpg',
   'https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&w=1920',
   'https://images.pexels.com/photos/1024993/pexels-photo-1024993.jpeg?auto=compress&cs=tinysrgb&w=1920',
   'https://images.pexels.com/photos/1024954/pexels-photo-1024954.jpeg?auto=compress&cs=tinysrgb&w=1920',
