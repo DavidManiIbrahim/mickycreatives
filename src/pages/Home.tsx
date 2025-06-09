@@ -172,17 +172,17 @@ const Home: React.FC = () => {
             {[
               {
                 title: 'Portrait Photography',
-                image: 'https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&w=600',
+                image: 'https://res.cloudinary.com/dikmotd52/image/upload/v1749436941/2_4_ewrtz4.jpg',
                 description: 'Capturing your essence with artistic precision and professional excellence'
               },
               {
                 title: 'Wedding Photography',
-                image: 'https://images.pexels.com/photos/1024954/pexels-photo-1024954.jpeg?auto=compress&cs=tinysrgb&w=600',
+                image: 'https://res.cloudinary.com/dikmotd52/image/upload/v1749436941/2_4_ewrtz4.jpg',
                 description: 'Complete wedding day coverage with cinematic storytelling approach'
               },
               {
                 title: 'Fashion Photography',
-                image: 'https://images.pexels.com/photos/1065084/pexels-photo-1065084.jpeg?auto=compress&cs=tinysrgb&w=600',
+                image: 'https://res.cloudinary.com/dikmotd52/image/upload/v1749436941/2_4_ewrtz4.jpg',
                 description: 'High-end fashion photography that showcases style and sophistication'
               }
             ].map((service, index) => (
