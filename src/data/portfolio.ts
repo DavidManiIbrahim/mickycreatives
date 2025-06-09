@@ -88,9 +88,10 @@ export const portfolioItems: PortfolioItem[] = [
 ];
 
 export const heroImages = [
-  'https://res.cloudinary.com/dikmotd52/image/upload/v1749349119/EAS_884435_jz0l0w.jpg',
-  'https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&w=1920',
-  'https://images.pexels.com/photos/1024993/pexels-photo-1024993.jpeg?auto=compress&cs=tinysrgb&w=1920',
-  'https://images.pexels.com/photos/1024954/pexels-photo-1024954.jpeg?auto=compress&cs=tinysrgb&w=1920',
-  // 'https://images.pexels.com/photos/1065084/pexels-photo-1065084.jpeg?auto=compress&cs=tinysrgb&w=1920'
+  'https://res.cloudinary.com/dikmotd52/image/upload/v1749434764/3_24_kqbwwx.jpg',
+  'https://res.cloudinary.com/dikmotd52/image/upload/v1749434788/3_2_oiawtc.jpg',
+  'https://res.cloudinary.com/dikmotd52/image/upload/v1749434776/3_30_zifwqg.jpg',
+  'https://res.cloudinary.com/dikmotd52/image/upload/v1749434765/3_27_gcoo7j.jpg',
+  'https://res.cloudinary.com/dikmotd52/image/upload/v1749434758/3_5_ugech2.jpg',
+   'https://res.cloudinary.com/dikmotd52/image/upload/v1749434749/3_6_kflmoo.jpg'
 ];
