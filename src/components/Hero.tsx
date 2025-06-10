@@ -50,7 +50,7 @@ const Hero: React.FC = () => {
       <div className="absolute inset-0 flex items-center justify-center z-10">
         <div className="text-center text-white max-w-5xl mx-auto px-4">
           {/* Text shadow and backdrop blur for better blending */}
-          <div className="backdrop-blur-sm bg-black/10 rounded-3xl p-12 border border-white/10">
+          <div className="backdrop-blur-sm bg-black/10 rounded-3xl p-12">
             <h1 className="text-6xl md:text-8xl font-bold mb-8 animate-fade-in-delay-1 tracking-tight drop-shadow-2xl">
               <span className="block text-shadow-lg">Micky's</span>
               <span className="block text-5xl md:text-7xl font-light italic text-shadow-lg bg-gradient-to-r from-white via-white to-gray-200 bg-clip-text">Creative</span>
@@ -60,9 +60,9 @@ const Hero: React.FC = () => {
               Capturing Moments, Creating Art
             </p>
             
-            <p className="text-lg md:text-xl mb-12 text-white/90 max-w-3xl mx-auto animate-fade-in-delay-3 leading-relaxed drop-shadow-md">
+            <p className="text-lg md:text-xl font-bold mb-12 text-white/90 max-w-3xl mx-auto animate-fade-in-delay-3 leading-relaxed drop-shadow-md">
               Professional photography services in Yola, Nigeria. Specializing in portrait, 
-              wedding, pre-wedding, fashion, and event photography with artistic excellence.
+              wedding, and event photography with artistic excellence.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center animate-fade-in-delay-4">
@@ -112,7 +112,7 @@ const Hero: React.FC = () => {
         </div>
       </div>
 
-      {/* Navigation arrows (optional enhancement) */}
+     
       <button
         onClick={prevSlide}
         className="absolute left-6 top-1/2 -translate-y-1/2 z-10 bg-black/20 backdrop-blur-sm border border-white/20 text-white p-3 rounded-full hover:bg-black/40 transition-all duration-300 opacity-0 hover:opacity-100 group-hover:opacity-100"

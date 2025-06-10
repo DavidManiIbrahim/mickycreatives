@@ -13,7 +13,7 @@ const Contact: React.FC = () => {
     {
       icon: Mail,
       title: 'Email',
-      details: 'info@mickyscreative.com',
+      details: 'mickyscreatives@gmail.com',
       action: 'mailto:info@mickyscreative.com'
     },
     {

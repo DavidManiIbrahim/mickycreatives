@@ -31,8 +31,22 @@ export const portfolioItems: PortfolioItem[] = [
     image: 'https://res.cloudinary.com/dikmotd52/image/upload/v1749434776/3_29_lt6un6.jpg',
     description: 'Beautiful family moment captured naturally'
   },
+  {
+    id: 'p4',
+    title: 'Creative Portrait',
+    category: 'portrait',
+    image: 'https://res.cloudinary.com/dikmotd52/image/upload/v1749434758/3_5_ugech2.jpg',
+    description: 'Artistic portrait with dramatic lighting'
+  },
+  {
+    id: 'p5',
+    title: 'Professional Headshot',
+    category: 'portrait',
+    image: 'https://res.cloudinary.com/dikmotd52/image/upload/v1749434749/3_6_kflmoo.jpg',
+    description: 'Professional business portrait with natural lighting'
+  },
 
-  
+
   // Wedding
   {
     id: 'w1',
@@ -63,13 +77,14 @@ export const portfolioItems: PortfolioItem[] = [
     description: 'Intimate moments between bride and groom'
   },
   {
-    id: 'w4',
+    id: 'w5',
     title: 'Bride & Groom',
     category: 'wedding',
     image: 'https://res.cloudinary.com/dikmotd52/image/upload/v1749436940/2_1_vrsy2r.jpg',
     description: 'Intimate moments between bride and groom'
   },
   
+
   // Event
   {
     id: 'e1',
@@ -91,16 +106,30 @@ export const portfolioItems: PortfolioItem[] = [
     category: 'event',
     image: 'https://res.cloudinary.com/dikmotd52/image/upload/v1749434764/3_24_kqbwwx.jpg',
     description: 'Professional conference and seminar photography'
-  }
+  },
+  {
+    id: 'e4',
+    title: 'Corporate Event',
+    category: 'event',
+    image: 'https://res.cloudinary.com/dikmotd52/image/upload/v1749434776/3_30_zifwqg.jpg',
+    description: 'Professional corporate event coverage'
+  },
+  {
+    id: 'e5',
+    title: 'Birthday Celebration',
+    category: 'event',
+    image: 'https://res.cloudinary.com/dikmotd52/image/upload/v1749434788/3_2_oiawtc.jpg',
+    description: 'Joyful birthday celebration moments'
+  },
+
 ];
 
 export const heroImages = [
   'https://res.cloudinary.com/dikmotd52/image/upload/v1749434764/3_24_kqbwwx.jpg',
-  // 'https://res.cloudinary.com/dikmotd52/image/upload/v1749434788/3_2_oiawtc.jpg',
   'https://res.cloudinary.com/dikmotd52/image/upload/v1749434776/3_30_zifwqg.jpg',
-  // 'https://res.cloudinary.com/dikmotd52/image/upload/v1749434765/3_27_gcoo7j.jpg',
+  'https://res.cloudinary.com/dikmotd52/image/upload/v1749434765/3_27_gcoo7j.jpg',
   'https://res.cloudinary.com/dikmotd52/image/upload/v1749436940/2_1_vrsy2r.jpg',
   'https://res.cloudinary.com/dikmotd52/image/upload/v1749436941/2_4_ewrtz4.jpg',
-  // 'https://res.cloudinary.com/dikmotd52/image/upload/v1749434758/3_5_ugech2.jpg',
-  //  'https://res.cloudinary.com/dikmotd52/image/upload/v1749434749/3_6_kflmoo.jpg',
+  'https://res.cloudinary.com/dikmotd52/image/upload/v1749434758/3_5_ugech2.jpg',
+   'https://res.cloudinary.com/dikmotd52/image/upload/v1749434749/3_6_kflmoo.jpg',
 ];

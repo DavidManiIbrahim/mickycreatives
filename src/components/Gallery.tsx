@@ -45,7 +45,7 @@ const Gallery: React.FC<GalleryProps> = ({ category, limit }) => {
 
   return (
     <>
-      <section className="py-20 mt-20 bg-gradient-to-br from-red-700 to-red-600 text-white">
+      {/* <section className="py-20 mt-20 bg-gradient-to-br from-red-700 to-red-600 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-5xl font-bold mb-6">Gallery</h1>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
@@ -53,8 +53,8 @@ const Gallery: React.FC<GalleryProps> = ({ category, limit }) => {
             Each photograph tells a unique story of love, joy, beauty, and celebration.
           </p>
         </div>
-      </section>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-10">
+      </section> */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-10 mb-10">
         {displayItems.map((item) => (
 <div
             key={item.id}
