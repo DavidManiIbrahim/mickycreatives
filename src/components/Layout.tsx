@@ -12,7 +12,8 @@ const Layout: React.FC = () => {
       <header className="bg-background-ivory shadow-md sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
           <div className="flex items-center space-x-3">
-            <img src="https://res.cloudinary.com/dikmotd52/image/upload/v1749422577/micky_s_creative_icon_trans_bb1jj0.png" alt="logo" width={50} />
+            <img src="/image/vite.svg" alt="logo" width={50} />
+            {/* <img src="https://res.cloudinary.com/dikmotd52/image/upload/v1749422577/micky_s_creative_icon_trans_bb1jj0.png" alt="logo" width={50} /> */}
             <h1 className="text-2xl font-bold tracking-wide text-primary-deepForestGreen">
               Micky’s Creative
             </h1>

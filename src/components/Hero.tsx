@@ -113,19 +113,7 @@ const Hero: React.FC = () => {
       </div>
 
      
-      <button
-        onClick={prevSlide}
-        className="absolute left-6 top-1/2 -translate-y-1/2 z-10 bg-black/20 backdrop-blur-sm border border-white/20 text-white p-3 rounded-full hover:bg-black/40 transition-all duration-300 opacity-0 hover:opacity-100 group-hover:opacity-100"
-      >
-        <ChevronLeft className="w-6 h-6" />
-      </button>
-      
-      <button
-        onClick={nextSlide}
-        className="absolute right-6 top-1/2 -translate-y-1/2 z-10 bg-black/20 backdrop-blur-sm border border-white/20 text-white p-3 rounded-full hover:bg-black/40 transition-all duration-300 opacity-0 hover:opacity-100 group-hover:opacity-100"
-      >
-        <ChevronRight className="w-6 h-6" />
-      </button>
+     
     </section>
   );
 };
