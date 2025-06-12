@@ -45,16 +45,8 @@ const Gallery: React.FC<GalleryProps> = ({ category, limit }) => {
 
   return (
     <>
-      {/* <section className="py-20 mt-20 bg-gradient-to-br from-red-700 to-red-600 text-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-5xl font-bold mb-6">Gallery</h1>
-          <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Explore our collection of beautiful moments captured through our lens. 
-            Each photograph tells a unique story of love, joy, beauty, and celebration.
-          </p>
-        </div>
-      </section> */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-10 mb-10">
+   
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 gap-6 p-3 mt-10 mb-10">
         {displayItems.map((item) => (
 <div
             key={item.id}
@@ -78,26 +70,26 @@ const Gallery: React.FC<GalleryProps> = ({ category, limit }) => {
 
       {/* Lightbox */}
         {selectedImage && (
-        <div className="fixed inset-0 z-50 bg-primary-charcoalBlack/90 flex items-center justify-center p-4">
+        <div className="fixed inset-0 z-50 bg-primary-gray flex items-center justify-center p-4">
           <button
             onClick={closeLightbox}
-            className="absolute top-4 right-4 w-12 h-12 bg-textcolor-white/20 backdrop-blur-sm rounded-full flex items-center justify-center text-textcolor-white hover:bg-textcolor-white/30 transition-all duration-300"
+            className="absolute top-4 p-cursor right-4 w-12 h-12 bg-textcolor-black/20 backdrop-blur-sm rounded-full flex items-center justify-center text-textcolor-black hover:bg-textcolor-black/30 transition-all duration-300"
           >
             <X className="w-6 h-6" />
           </button>
 
           <button
             onClick={prevImage}
-            className="absolute left-4 top-1/2 -translate-y-1/2 w-12 h-12 bg-textcolor-white/20 backdrop-blur-sm rounded-full flex items-center justify-center text-textcolor-white hover:bg-textcolor-white/30 transition-all duration-300"
+            className="absolute left-4 top-1/2 -translate-y-1/2 w-12 h-12 bg-textcolor-black/20 backdrop-blur-sm rounded-full flex items-center justify-center text-textcolor-white hover:bg-textcolor-white/30 transition-all duration-300"
           >
             <ChevronLeft className="w-6 h-6" />
           </button>
 
           <button
             onClick={nextImage}
-            className="absolute right-4 top-1/2 -translate-y-1/2 w-12 h-12 bg-textcolor-white/20 backdrop-blur-sm rounded-full flex items-center justify-center text-textcolor-white hover:bg-textcolor-white/30 transition-all duration-300"
+            className="absolute right-4 top-1/2 -translate-y-1/2 w-12 h-12 bg-textcolor-black/20 backdrop-blur-sm rounded-full flex items-center justify-center text-textcolor-white hover:bg-textcolor-white/30 transition-all duration-300"
           >
-            <ChevronRight className="w-6 h-6" />
+            <ChevronRight className="w-6 h-6 " />
           </button>
 
           <div className="max-w-4xl max-h-full">

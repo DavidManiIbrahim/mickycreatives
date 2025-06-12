@@ -14,35 +14,56 @@ export const portfolioItems: PortfolioItem[] = [
     id: 'p1',
     title: 'Professional Headshot',
     category: 'portrait',
-    image: 'https://res.cloudinary.com/dikmotd52/image/upload/v1749434749/3_6_kflmoo.jpg',
+    image: "/image/Portrait/1 (1).jpg",
     description: 'Professional business portrait with natural lighting'
   },
   {
     id: 'p2',
     title: 'Creative Portrait',
     category: 'portrait',
-    image: 'https://res.cloudinary.com/dikmotd52/image/upload/v1749434758/3_5_ugech2.jpg',
+    image: "/image/Portrait/1 (10).jpg",
     description: 'Artistic portrait with dramatic lighting'
   },
   {
     id: 'p3',
     title: 'Family Portrait',
     category: 'portrait',
-    image: 'https://res.cloudinary.com/dikmotd52/image/upload/v1749434776/3_29_lt6un6.jpg',
+    image: "/image/Portrait/1 (15).jpg",
     description: 'Beautiful family moment captured naturally'
   },
   {
     id: 'p4',
     title: 'Creative Portrait',
     category: 'portrait',
-    image: 'https://res.cloudinary.com/dikmotd52/image/upload/v1749434758/3_5_ugech2.jpg',
+    image: "/image/Portrait/1 (12).jpg",
     description: 'Artistic portrait with dramatic lighting'
   },
   {
     id: 'p5',
     title: 'Professional Headshot',
     category: 'portrait',
-    image: 'https://res.cloudinary.com/dikmotd52/image/upload/v1749434749/3_6_kflmoo.jpg',
+    image: "/image/Portrait/1 (20).jpg",
+    description: 'Professional business portrait with natural lighting'
+  },
+  {
+    id: 'p6',
+    title: 'Creative Portrait',
+    category: 'portrait',
+    image: "/image/Portrait/1 (16).jpg",
+    description: 'Artistic portrait with dramatic lighting'
+  },
+   {
+    id: 'p7',
+    title: 'Professional Headshot',
+    category: 'portrait',
+    image: "/image/Portrait/1 (27).jpg",
+    description: 'Professional business portrait with natural lighting'
+  },
+  {
+    id: 'p8',
+    title: 'Professional Headshot',
+    category: 'portrait',
+    image: "/image/Portrait/1 (23).jpg",
     description: 'Professional business portrait with natural lighting'
   },
 
@@ -52,35 +73,42 @@ export const portfolioItems: PortfolioItem[] = [
     id: 'w1',
     title: 'Wedding Ceremony',
     category: 'wedding',
-    image: 'https://res.cloudinary.com/dikmotd52/image/upload/v1749434755/3_7_moa8bh.jpg',
+    image: '/image/Weddings/2 (1).jpg',
     description: 'Beautiful wedding ceremony moments'
   },
   {
     id: 'w2',
     title: 'Reception Joy',
     category: 'wedding',
-    image: 'https://res.cloudinary.com/dikmotd52/image/upload/v1749434766/3_28_ogrglw.jpg',
+    image: '/image/Weddings/2 (10).jpg',
     description: 'Celebration and joy at wedding reception'
   },
   {
     id: 'w3',
     title: 'Bride & Groom',
     category: 'wedding',
-    image: 'https://res.cloudinary.com/dikmotd52/image/upload/v1749434764/3_25_b23qoh.jpg',
+    image: '/image/Weddings/2 (3).jpg',
     description: 'Intimate moments between bride and groom'
   },
   {
     id: 'w4',
     title: 'Bride & Groom',
     category: 'wedding',
-    image: 'https://res.cloudinary.com/dikmotd52/image/upload/v1749436941/2_4_ewrtz4.jpg',
+    image: '/image/Weddings/2 (9).jpg',
     description: 'Intimate moments between bride and groom'
   },
   {
     id: 'w5',
     title: 'Bride & Groom',
     category: 'wedding',
-    image: 'https://res.cloudinary.com/dikmotd52/image/upload/v1749436940/2_1_vrsy2r.jpg',
+    image: '/image/Weddings/2 (4).jpg',
+    description: 'Intimate moments between bride and groom'
+  },
+  {
+    id: 'w6',
+    title: 'Bride & Groom',
+    category: 'wedding',
+    image: '/image/Weddings/2 (5).jpg',
     description: 'Intimate moments between bride and groom'
   },
   
@@ -90,46 +118,66 @@ export const portfolioItems: PortfolioItem[] = [
     id: 'e1',
     title: 'Corporate Event',
     category: 'event',
-    image: 'https://res.cloudinary.com/dikmotd52/image/upload/v1749434776/3_30_zifwqg.jpg',
+    image: '/image/Events/3 (6).jpg',
     description: 'Professional corporate event coverage'
   },
   {
     id: 'e2',
     title: 'Birthday Celebration',
     category: 'event',
-    image: 'https://res.cloudinary.com/dikmotd52/image/upload/v1749434788/3_2_oiawtc.jpg',
+    image: '/image/Events/3 (12).jpg',
     description: 'Joyful birthday celebration moments'
   },
   {
     id: 'e3',
     title: 'Conference Coverage',
     category: 'event',
-    image: 'https://res.cloudinary.com/dikmotd52/image/upload/v1749434764/3_24_kqbwwx.jpg',
+    image: '/image/Events/3 (20).jpg',
     description: 'Professional conference and seminar photography'
   },
   {
     id: 'e4',
     title: 'Corporate Event',
     category: 'event',
-    image: 'https://res.cloudinary.com/dikmotd52/image/upload/v1749434776/3_30_zifwqg.jpg',
+    image: '/image/Events/3 (25).jpg',
     description: 'Professional corporate event coverage'
   },
   {
     id: 'e5',
     title: 'Birthday Celebration',
     category: 'event',
-    image: 'https://res.cloudinary.com/dikmotd52/image/upload/v1749434788/3_2_oiawtc.jpg',
+    image: '/image/Events/3 (53).jpg',
+    description: 'Joyful birthday celebration moments'
+  },
+  {
+    id: 'e6',
+    title: 'Corporate Event',
+    category: 'event',
+    image: '/image/Events/3 (37).jpg',
+    description: 'Professional corporate event coverage'
+  },
+  {
+    id: 'e7',
+    title: 'Birthday Celebration',
+    category: 'event',
+    image: '/image/Events/3 (58).jpg',
+    description: 'Joyful birthday celebration moments'
+  },
+  {
+    id: 'e8',
+    title: 'Birthday Celebration',
+    category: 'event',
+    image: '/image/Events/3 (27).jpg',
     description: 'Joyful birthday celebration moments'
   },
 
 ];
 
 export const heroImages = [
-  'https://res.cloudinary.com/dikmotd52/image/upload/v1749434764/3_24_kqbwwx.jpg',
-  'https://res.cloudinary.com/dikmotd52/image/upload/v1749434776/3_30_zifwqg.jpg',
-  'https://res.cloudinary.com/dikmotd52/image/upload/v1749434765/3_27_gcoo7j.jpg',
-  'https://res.cloudinary.com/dikmotd52/image/upload/v1749436940/2_1_vrsy2r.jpg',
-  'https://res.cloudinary.com/dikmotd52/image/upload/v1749436941/2_4_ewrtz4.jpg',
-  'https://res.cloudinary.com/dikmotd52/image/upload/v1749434758/3_5_ugech2.jpg',
-   'https://res.cloudinary.com/dikmotd52/image/upload/v1749434749/3_6_kflmoo.jpg',
+  '/image/Events/3 (6).jpg',
+  '/image/Events/3 (53).jpg',
+  '/image/Weddings/2 (1).jpg',
+  '/image/Weddings/2 (9).jpg',
+  '/image/Portrait/1 (22).jpg',
+  '/image/Portrait/1 (17).jpg',
 ];
